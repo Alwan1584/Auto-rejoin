@@ -1,0 +1,19 @@
+Library used
+
+1. pyautogui;
+documentation: https://pyautogui.readthedocs.io/en/latest/
+2. install opencv to combat ImageNotFoundError
+3. time
+4. pygetwindow:
+5. pywinauto (
+    Install pywin32 from https://github.com/mhammond/pywin32/releases
+    pip install -U comtypes
+    pip install six
+    pip install Pillow
+    cd c:\windows\syswow64\
+    regsvr32 UIAutomationCore.dll
+    python
+    import pywinauto #and the problem should be solved
+) 
+
+documentation: https://pywinauto.readthedocs.io/en/latest/
